@@ -9,6 +9,8 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
+@EqualsAndHashCode
+@ToString
 public class GetModelsResponse {
 
     //Single Model
@@ -17,6 +19,8 @@ public class GetModelsResponse {
     @Builder
     @NoArgsConstructor
     @AllArgsConstructor(access = AccessLevel.PRIVATE)
+    @EqualsAndHashCode
+    @ToString
     public static class CarModel {
         private UUID carModelId;
         private String name;

@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import sem5.ISA.ISA_lab.carMake.CarMake;
 import sem5.ISA.ISA_lab.carMake.service.CarMakeDefaultService;
 import sem5.ISA.ISA_lab.carModel.CarModel;
-import sem5.ISA.ISA_lab.carModel.CarModelService;
+import sem5.ISA.ISA_lab.carModel.service.CarModelDefaultService;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,12 +15,12 @@ import java.util.UUID;
 @Component
 public class Data {
     private final CarMakeDefaultService carMakeDefaultService;
-    private final CarModelService carModelService;
+    private final CarModelDefaultService carModelDefaultService;
 
     @Autowired
-    public Data(CarMakeDefaultService carMakeDefaultService, CarModelService carModelService) {
+    public Data(CarMakeDefaultService carMakeDefaultService, CarModelDefaultService carModelDefaultService) {
         this.carMakeDefaultService = carMakeDefaultService;
-        this.carModelService = carModelService;
+        this.carModelDefaultService = carModelDefaultService;
     }
     public static void connectData(List<CarModel> models, List<CarMake> makes){
         int j = 0;
@@ -83,7 +83,7 @@ public class Data {
             carMakeDefaultService.save(make);
         }
         for (CarModel model : models) {
-            carModelService.save(model);
+            carModelDefaultService.save(model);
         }
     }
 }

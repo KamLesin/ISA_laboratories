@@ -8,8 +8,10 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
-public class SaveModelRequest {
+@ToString
+@EqualsAndHashCode
+public class PutModelRequest {
     private String name;
     private int displacement;
-    private UUID make;
 }
+

@@ -8,10 +8,9 @@ import java.util.UUID;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
-public class GetModelResponse {
-
-    private UUID carModelId;
+@ToString
+@EqualsAndHashCode
+public class PatchModelRequest {
     private String name;
     private int displacement;
-    private UUID carMakeId;
 }
