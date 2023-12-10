@@ -1,4 +1,4 @@
-package sem5.ISA.ISA_lab;
+package sem5.ISA;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,4 +1,4 @@
-package sem5.ISA.ISA_lab.carModel;
+package sem5.ISA.carModel;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -6,7 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.hibernate.annotations.GenericGenerator;
-import sem5.ISA.ISA_lab.carMake.CarMake;
+import sem5.ISA.carMake.CarMake;
 
 import java.io.Serializable;
 import java.util.Objects;

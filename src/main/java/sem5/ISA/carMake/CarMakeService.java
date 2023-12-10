@@ -1,4 +1,4 @@
-package sem5.ISA.ISA_lab.carMake;
+package sem5.ISA.carMake;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

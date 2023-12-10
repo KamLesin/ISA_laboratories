@@ -1,12 +1,12 @@
-package sem5.ISA.ISA_lab.dataInit;
+package sem5.ISA.dataInit;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import sem5.ISA.ISA_lab.carMake.CarMake;
-import sem5.ISA.ISA_lab.carMake.CarMakeService;
-import sem5.ISA.ISA_lab.carModel.CarModel;
-import sem5.ISA.ISA_lab.carModel.CarModelService;
+import sem5.ISA.carMake.CarMake;
+import sem5.ISA.carMake.CarMakeService;
+import sem5.ISA.carModel.CarModel;
+import sem5.ISA.carModel.CarModelService;
 
 import java.util.ArrayList;
 import java.util.List;

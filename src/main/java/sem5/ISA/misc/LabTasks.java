@@ -1,9 +1,9 @@
-package sem5.ISA.ISA_lab.misc;
+package sem5.ISA.misc;
 
-import sem5.ISA.ISA_lab.carMake.CarMake;
-import sem5.ISA.ISA_lab.carModel.CarModel;
-import sem5.ISA.ISA_lab.carModel.CarModelDTO;
-import sem5.ISA.ISA_lab.mapToDTO.ToDTO;
+import sem5.ISA.carMake.CarMake;
+import sem5.ISA.carModel.CarModel;
+import sem5.ISA.carModel.CarModelDTO;
+import sem5.ISA.mapToDTO.ToDTO;
 
 import java.io.*;
 import java.util.Comparator;

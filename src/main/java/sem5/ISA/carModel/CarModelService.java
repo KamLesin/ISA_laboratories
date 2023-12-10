@@ -1,11 +1,11 @@
-package sem5.ISA.ISA_lab.carModel;
+package sem5.ISA.carModel;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheEvict;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import sem5.ISA.ISA_lab.carMake.CarMake;
-import sem5.ISA.ISA_lab.carMake.CarMakeRepo;
+import sem5.ISA.carMake.CarMake;
+import sem5.ISA.carMake.CarMakeRepo;
 
 import java.util.List;
 import java.util.NoSuchElementException;

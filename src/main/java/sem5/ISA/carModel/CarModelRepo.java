@@ -1,4 +1,4 @@
-package sem5.ISA.ISA_lab.carModel;
+package sem5.ISA.carModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

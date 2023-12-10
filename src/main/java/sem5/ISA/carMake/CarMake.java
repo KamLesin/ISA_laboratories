@@ -1,10 +1,10 @@
-package sem5.ISA.ISA_lab.carMake;
+package sem5.ISA.carMake;
 
 
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.GenericGenerator;
-import sem5.ISA.ISA_lab.carModel.CarModel;
+import sem5.ISA.carModel.CarModel;
 
 
 import java.io.Serializable;

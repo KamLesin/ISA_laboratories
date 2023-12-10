@@ -1,7 +1,7 @@
-package sem5.ISA.ISA_lab.mapToDTO;
+package sem5.ISA.mapToDTO;
 
-import sem5.ISA.ISA_lab.carModel.CarModel;
-import sem5.ISA.ISA_lab.carModel.CarModelDTO;
+import sem5.ISA.carModel.CarModel;
+import sem5.ISA.carModel.CarModelDTO;
 
 public class ToDTO {
     public static CarModelDTO toCarModelDTO(CarModel model){

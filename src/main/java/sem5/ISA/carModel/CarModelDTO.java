@@ -1,4 +1,4 @@
-package sem5.ISA.ISA_lab.carModel;
+package sem5.ISA.carModel;
 
 import lombok.Builder;
 import lombok.Data;

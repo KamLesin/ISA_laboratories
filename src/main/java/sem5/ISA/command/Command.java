@@ -1,10 +1,10 @@
-package sem5.ISA.ISA_lab.command;
-import sem5.ISA.ISA_lab.carMake.CarMakeService;
-import sem5.ISA.ISA_lab.carModel.*;
+package sem5.ISA.command;
+import sem5.ISA.carMake.CarMakeService;
+import sem5.ISA.carModel.*;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import sem5.ISA.ISA_lab.carMake.CarMakeRepo;
+import sem5.ISA.carMake.CarMakeRepo;
 
 import java.util.Scanner;
 import java.util.UUID;
