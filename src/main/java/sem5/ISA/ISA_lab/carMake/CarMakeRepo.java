@@ -8,4 +8,6 @@ import java.util.UUID;
 @Repository
 public interface CarMakeRepo extends JpaRepository<CarMake, UUID> {
     Optional<CarMake> findById(UUID carMakeId);
+
+    Optional<CarMake> findByName(String name);
 }

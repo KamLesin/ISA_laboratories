@@ -6,7 +6,9 @@ import lombok.*;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
-public class SaveMakeRequest {
+@ToString
+@EqualsAndHashCode
+public class PutMakeRequest {
     private String name;
     private int countryId;
 }
